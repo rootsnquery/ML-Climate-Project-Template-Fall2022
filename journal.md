@@ -21,5 +21,7 @@
 ### examined distributions of variables (histograms) to see overall shape of data. 
 ### Read over several articles to review best practices to handle missing data across multiple variables. Considering between removing data entirely or interpolating missing data using Hist Gradient Boosting Regressor since it has native support for missing values NaNs. 
 
+### testing testing (getting errors when trying to push to main)
+
 
 
