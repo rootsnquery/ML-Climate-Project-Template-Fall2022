@@ -9,9 +9,17 @@
 ### I want to implement an LSTM for anomaly detection and I realized that it would not make sense to apply this method to such data. (ice melting, progressively decreasing). I'm thinking if any anomalies are detected it would probably input/reporting errors if anything, but I could be wrong. 
 
 ### October 4th 2022
-### Started working with the previous meteostat data again. Still findig the best method of reading it in/using it. I read through data documentation. My variables of interest are snow depth, wind speed, average sea-level pressure, average air temperature, and daily precipitation.
+### Started working with the previous meteostat data again. Still finding the best method of reading it in/using it. I read through data documentation. My variables of interest are snow depth, wind speed, average sea-level pressure, average air temperature, and daily precipitation.
 ### tried out reading in data using the meteostat library (I was unaware of this before :'()
 ### tested out creating a time series plot for vancouver, bc that was found in documentation. 
+
+### October 11th, 2022
+### Considered working with another dataset: household_power_consumption.txt or sunspot data. 
+
+### October 18th, 2022 
+### started data cleaning removed tsun var column (daily sunshine total in minutes) since data is not recorded
+### examined distributions of variables (histograms) to see overall shape of data. 
+### Read over several articles to review best practices to handle missing data across multiple variables. Considering between removing data entirely or interpolating missing data using Hist Gradient Boosting Regressor since it has native support for missing values NaNs. 
 
 
 
