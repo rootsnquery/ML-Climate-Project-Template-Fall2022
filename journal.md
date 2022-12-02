@@ -23,5 +23,9 @@
 
 ### testing testing (getting errors when trying to push to main)
 
+### October 24th, 2022
+### conducted correlation analysis and retained tavg (avg temperature variable) to avoid redunancy in data. 
 
+### November 10th, 2022
+### started building out first iteration of model 
 
